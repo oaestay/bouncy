@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "bouncy",
+  "alias": ["bouncy.oscarestay.com", "www.bouncy.oscarestay.com"],
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
   "routes": [
     { "src": "^/js/(.*)", "dest": "/js/$1" },
